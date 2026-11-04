@@ -55,20 +55,11 @@ export function InvitationWording({ lang, config }) {
                   {wording.brideParents.title[lang]}
                 </span>
                 <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
-                  <span className="block sm:inline">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
-                  <span className="hidden sm:inline"> &amp; </span>
-                  <span className="block sm:inline mt-0.5 sm:mt-0">
-                    {lang === 'ta' ? (
-                      <>
-                        <span>&amp; </span>
-                        <span className="whitespace-nowrap">திருமதி. S. செல்வமணி</span>
-                      </>
-                    ) : (
-                      <>
-                        <span>&amp; </span>
-                        <span className="whitespace-nowrap">Mrs. S. Selvamani</span>
-                      </>
-                    )}
+                  <span className="block md:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
+                  <span className="hidden md:inline"> &amp; </span>
+                  <span className="block md:inline mt-1 md:mt-0 whitespace-nowrap">
+                    <span className="md:hidden">&amp; </span>
+                    {lang === 'ta' ? 'திருமதி. S. செல்வமணி' : 'Mrs. S. Selvamani'}
                   </span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
@@ -87,20 +78,11 @@ export function InvitationWording({ lang, config }) {
                   {wording.groomParents.title[lang]}
                 </span>
                 <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
-                  <span className="block sm:inline">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
-                  <span className="hidden sm:inline"> &amp; </span>
-                  <span className="block sm:inline mt-0.5 sm:mt-0">
-                    {lang === 'ta' ? (
-                      <>
-                        <span>&amp; </span>
-                        <span className="whitespace-nowrap">திருமதி. P. ராணி</span>
-                      </>
-                    ) : (
-                      <>
-                        <span>&amp; </span>
-                        <span className="whitespace-nowrap">Mrs. P. Rani</span>
-                      </>
-                    )}
+                  <span className="block md:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
+                  <span className="hidden md:inline"> &amp; </span>
+                  <span className="block md:inline mt-1 md:mt-0 whitespace-nowrap">
+                    <span className="md:hidden">&amp; </span>
+                    {lang === 'ta' ? 'திருமதி. P. ராணி' : 'Mrs. P. Rani'}
                   </span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
