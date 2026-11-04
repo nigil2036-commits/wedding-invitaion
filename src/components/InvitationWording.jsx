@@ -57,7 +57,19 @@ export function InvitationWording({ lang, config }) {
                 <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
                   <span className="block sm:inline">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
                   <span className="hidden sm:inline"> &amp; </span>
-                  <span className="block sm:inline">{lang === 'ta' ? '& திருமதி. S. செல்வமணி' : '& Mrs. S. Selvamani'}</span>
+                  <span className="block sm:inline mt-0.5 sm:mt-0">
+                    {lang === 'ta' ? (
+                      <>
+                        <span>&amp; </span>
+                        <span className="whitespace-nowrap">திருமதி. S. செல்வமணி</span>
+                      </>
+                    ) : (
+                      <>
+                        <span>&amp; </span>
+                        <span className="whitespace-nowrap">Mrs. S. Selvamani</span>
+                      </>
+                    )}
+                  </span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
                   {wording.brideParents.familyLine[lang]}
@@ -77,7 +89,19 @@ export function InvitationWording({ lang, config }) {
                 <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
                   <span className="block sm:inline">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
                   <span className="hidden sm:inline"> &amp; </span>
-                  <span className="block sm:inline">{lang === 'ta' ? '& திருமதி. P. ராணி' : '& Mrs. P. Rani'}</span>
+                  <span className="block sm:inline mt-0.5 sm:mt-0">
+                    {lang === 'ta' ? (
+                      <>
+                        <span>&amp; </span>
+                        <span className="whitespace-nowrap">திருமதி. P. ராணி</span>
+                      </>
+                    ) : (
+                      <>
+                        <span>&amp; </span>
+                        <span className="whitespace-nowrap">Mrs. P. Rani</span>
+                      </>
+                    )}
+                  </span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
                   {wording.groomParents.familyLine[lang]}
