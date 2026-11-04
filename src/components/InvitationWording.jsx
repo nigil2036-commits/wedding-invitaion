@@ -54,11 +54,11 @@ export function InvitationWording({ lang, config }) {
                 <span className="text-xs uppercase tracking-wider text-gold font-tamilTitle font-semibold mb-2">
                   {wording.brideParents.title[lang]}
                 </span>
-                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
-                  <span className="block md:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
-                  <span className="hidden md:inline"> &amp; </span>
-                  <span className="block md:inline mt-1 md:mt-0 whitespace-nowrap">
-                    <span className="md:hidden">&amp; </span>
+                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-relaxed text-center">
+                  <span className="block lg:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
+                  <span className="hidden lg:inline"> &amp; </span>
+                  <span className="block lg:inline whitespace-nowrap">
+                    <span className="lg:hidden">&amp; </span>
                     {lang === 'ta' ? 'திருமதி. S. செல்வமணி' : 'Mrs. S. Selvamani'}
                   </span>
                 </h4>
@@ -77,11 +77,11 @@ export function InvitationWording({ lang, config }) {
                 <span className="text-xs uppercase tracking-wider text-gold font-tamilTitle font-semibold mb-2">
                   {wording.groomParents.title[lang]}
                 </span>
-                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
-                  <span className="block md:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
-                  <span className="hidden md:inline"> &amp; </span>
-                  <span className="block md:inline mt-1 md:mt-0 whitespace-nowrap">
-                    <span className="md:hidden">&amp; </span>
+                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-relaxed text-center">
+                  <span className="block lg:inline whitespace-nowrap">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
+                  <span className="hidden lg:inline"> &amp; </span>
+                  <span className="block lg:inline whitespace-nowrap">
+                    <span className="lg:hidden">&amp; </span>
                     {lang === 'ta' ? 'திருமதி. P. ராணி' : 'Mrs. P. Rani'}
                   </span>
                 </h4>
