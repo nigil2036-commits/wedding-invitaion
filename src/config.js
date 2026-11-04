@@ -24,8 +24,8 @@ export const weddingConfig = {
         en: 'Yogeshkumar',
       },
       degree: {
-        ta: 'MSc.,(DM)',
-        en: 'MSc.,(DM)',
+        ta: 'M.Sc.,(DM)',
+        en: 'M.Sc.,(DM)',
       },
       relation: {
         ta: 'திரு. N. பாலுசாமி - திருமதி. P. ராணி தம்பதியரின் புதல்வர்',
@@ -214,8 +214,8 @@ export const weddingConfig = {
         en: 'Mr. N. Balusamy & Mrs. P. Rani',
       },
       familyLine: {
-        ta: 'மற்றும் பாலுசாமி குடும்பத்தினர், பரமத்தி வேலூர்',
-        en: '& Family, Paramathi Velur',
+        ta: 'மற்றும் பாலுசாமி குடும்பத்தினர்',
+        en: '& Family',
       },
     },
     brideParents: {

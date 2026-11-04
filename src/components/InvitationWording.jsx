@@ -54,8 +54,10 @@ export function InvitationWording({ lang, config }) {
                 <span className="text-xs uppercase tracking-wider text-gold font-tamilTitle font-semibold mb-2">
                   {wording.brideParents.title[lang]}
                 </span>
-                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold">
-                  {wording.brideParents.names[lang]}
+                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
+                  <span className="block sm:inline">{lang === 'ta' ? 'திரு. R. சரவணன்' : 'Mr. R. Saravanan'}</span>
+                  <span className="hidden sm:inline"> &amp; </span>
+                  <span className="block sm:inline">{lang === 'ta' ? '& திருமதி. S. செல்வமணி' : '& Mrs. S. Selvamani'}</span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
                   {wording.brideParents.familyLine[lang]}
@@ -72,8 +74,10 @@ export function InvitationWording({ lang, config }) {
                 <span className="text-xs uppercase tracking-wider text-gold font-tamilTitle font-semibold mb-2">
                   {wording.groomParents.title[lang]}
                 </span>
-                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold">
-                  {wording.groomParents.names[lang]}
+                <h4 className="font-tamilTitle text-base sm:text-lg text-ivory font-bold leading-snug">
+                  <span className="block sm:inline">{lang === 'ta' ? 'திரு. N. பாலுசாமி' : 'Mr. N. Balusamy'}</span>
+                  <span className="hidden sm:inline"> &amp; </span>
+                  <span className="block sm:inline">{lang === 'ta' ? '& திருமதி. P. ராணி' : '& Mrs. P. Rani'}</span>
                 </h4>
                 <p className="font-tamilBody text-xs text-ivory/70 mt-1">
                   {wording.groomParents.familyLine[lang]}
