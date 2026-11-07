@@ -98,13 +98,13 @@ export function Hero({ lang, config }) {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr] items-center justify-center gap-2 sm:gap-4 my-2 w-full text-center">
-            {/* Bride */}
+            {/* Groom (1st) */}
             <div className="flex flex-col items-center sm:items-end">
               <h1 className="font-tamilTitle text-3xl sm:text-4xl md:text-5xl font-extrabold text-gold-warm drop-shadow-md">
-                {couple.bride.name[lang]}
+                {couple.groom.name[lang]}
               </h1>
               <p className="text-xs text-ivory/70 font-tamilBody mt-0.5">
-                {couple.bride.degree[lang]}
+                {couple.groom.degree[lang]}
               </p>
             </div>
 
@@ -117,13 +117,13 @@ export function Hero({ lang, config }) {
               <span className="h-[1px] w-6 bg-gold/50 hidden md:inline-block" />
             </div>
 
-            {/* Groom */}
+            {/* Bride (2nd) */}
             <div className="flex flex-col items-center sm:items-start sm:text-right w-full">
               <h1 className="font-tamilTitle text-3xl sm:text-4xl md:text-5xl font-extrabold text-gold-warm drop-shadow-md">
-                {couple.groom.name[lang]}
+                {couple.bride.name[lang]}
               </h1>
               <p className="text-xs text-ivory/70 font-tamilBody mt-0.5 sm:self-end">
-                {couple.groom.degree[lang]}
+                {couple.bride.degree[lang]}
               </p>
             </div>
           </div>
