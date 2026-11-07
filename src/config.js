@@ -395,25 +395,32 @@ export const weddingConfig = {
       en: 'Share on WhatsApp',
     },
     shareMessage: (lang = 'ta') => {
-      if (lang === 'ta') {
-        return encodeURIComponent(
-          `🙏 அன்புடையீர் வணக்கம்!\n\n` +
-          `கமலி & யோகேஷ்குமார் இருவீட்டார் மனமுவந்து நடத்தும் மங்களகரமான சுபமுகூர்த்த திருமண அழைப்பிதழ்:\n\n` +
-          `📅 தேதி: 22 நவம்பர் 2026 (கார்த்திகை 06, ஞாயிற்றுக்கிழமை)\n` +
-          `⏰ முகூர்த்தம்: அதிகாலை (Early Morning) - கொடுமுடி ஈஸ்வரன் கோவில்\n` +
-          `🎉 வரவேற்பு: காலை 8:30 - 10:30 மணி - சிந்து மஹால், பரமத்தி வேலூர்\n\n` +
-          `அழைப்பிதழைத் திறந்து பார்க்கவும்: ${window.location.href}\n\n` +
-          `தாங்களும் தங்கள் குடும்பத்தாரும் வருகை தந்து மணமக்களை வாழ்த்த அன்புடன் அழைக்கின்றோம்!`
-        );
-      }
+      const inviteUrl = typeof window !== 'undefined' ? window.location.href : 'https://invitaion-yvp9.vercel.app/';
       return encodeURIComponent(
-        `🙏 Warm Greetings!\n\n` +
-        `You are cordially invited to the wedding celebration of Kamali & Yogeshkumar:\n\n` +
-        `📅 Date: 22 November 2026 (Sunday, Karthigai 06)\n` +
-        `⏰ Muhurtham: Early Morning - Kodumudi Eswaran Temple\n` +
-        `🎉 Reception: 8:30 AM - 10:30 AM - Sindhu Mahal, Paramathi Velur\n\n` +
-        `Open the interactive invitation: ${window.location.href}\n\n` +
-        `Please grace the occasion and shower your blessings on the couple!`
+`💐𝗪𝗜𝗧𝗛 𝗟𝗢𝗩𝗘 & 𝗪𝗔𝗥𝗠 𝗜𝗡𝗩𝗜𝗧𝗔𝗧𝗜𝗢𝗡
+
+𝗪𝗘 𝗝𝗢𝗬𝗙𝗨𝗟𝗟𝗬 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨 𝗧𝗢 𝗖𝗘𝗟𝗘𝗕𝗥𝗔𝗧𝗘 𝗧𝗛𝗘 𝗥𝗘𝗖𝗘𝗣𝗧𝗜𝗢𝗡 𝗢𝗙 𝗢𝗨𝗥 𝗕𝗘𝗟𝗢𝗩𝗘𝗗
+
+𝗚𝗥𝗢𝗢𝗠 - 𝗬𝗢𝗚𝗘𝗦𝗛𝗞𝗨𝗠𝗔𝗥 🤵👨
+❤️
+𝗕𝗥𝗜𝗗𝗘 - 𝗞𝗔𝗠𝗔𝗟𝗜 👰👩💍✨
+
+𝗝𝗢𝗜𝗡 𝗨𝗦 𝗪𝗜𝗧𝗛 𝗬𝗢𝗨𝗥 𝗙𝗔𝗠𝗜𝗟𝗬 𝗧𝗢 𝗕𝗟𝗘𝗦𝗦 𝗧𝗛𝗘 𝗖𝗢𝗨𝗣𝗟𝗘, 𝗦𝗛𝗔𝗥𝗘 𝗢𝗨𝗥 𝗛𝗔𝗣𝗣𝗜𝗡𝗘𝗦𝗦 𝗔𝗡𝗗 𝗠𝗔𝗞𝗘 𝗧𝗛𝗜𝗦 𝗦𝗣𝗘𝗖𝗜𝗔𝗟 𝗗𝗔𝗬 𝗘𝗩𝗘𝗡 𝗠𝗢𝗥𝗘 𝗠𝗘𝗠𝗢𝗥𝗔𝗕𝗟𝗘!
+𝗗𝗔𝗧𝗘: 𝗦𝗨𝗡𝗗𝗔𝗬, 𝟮𝟮 𝗡𝗢𝗩𝗘𝗠𝗕𝗘𝗥 𝟮𝟬𝟮𝟲
+𝗧𝗜𝗠𝗘: 𝟴:𝟯𝟬 𝗔𝗠 𝗧𝗢 𝟭𝟬:𝟯𝟬 𝗔𝗠
+𝗩𝗘𝗡𝗨𝗘: 𝗦𝗜𝗡𝗗𝗛𝗨 𝗠𝗔𝗛𝗔𝗟, 𝗣𝗔𝗗𝗔𝗠𝗨𝗗𝗜𝗣𝗔𝗟𝗔𝗬𝗔𝗠, 𝗣𝗔𝗥𝗔𝗠𝗔𝗧𝗛𝗜 𝗩𝗘𝗟𝗨𝗥, 𝗡𝗔𝗠𝗔𝗞𝗞𝗔𝗟 𝗗𝗜𝗦𝗧𝗥𝗜𝗖𝗧 - 𝟲𝟯𝟴𝟭𝟴𝟮
+𝗟𝗔𝗡𝗗𝗠𝗔𝗥𝗞: [𝗡𝗘𝗔𝗥 𝗣𝗔𝗥𝗔𝗠𝗔𝗧𝗛𝗜 𝗩𝗘𝗟𝗨𝗥 𝗧𝗔𝗟𝗨𝗞 𝗢𝗙𝗙𝗜𝗖𝗘]
+📍 𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡: https://maps.app.goo.gl/rB65yG1GdJ8Utp119?g_st=aw
+
+💌 𝗜𝗡𝗩𝗜𝗧𝗔𝗧𝗜𝗢𝗡 𝗟𝗜𝗡𝗞: ${inviteUrl}
+
+𝗖𝗢𝗡𝗧𝗔𝗖𝗧:
++𝟵𝟭 𝟴𝟰𝟮𝟴𝟴𝟰𝟵𝟴𝟵𝟴
++𝟵𝟭 9487787316 
+
+𝗬𝗢𝗨𝗥 𝗣𝗥𝗘𝗦𝗘𝗡𝗖𝗘 𝗔𝗡𝗗 𝗕𝗟𝗘𝗦𝗦𝗜𝗡𝗚𝗦 𝗪𝗜𝗟𝗟 𝗠𝗔𝗞𝗘 𝗢𝗨𝗥 𝗖𝗘𝗟𝗘𝗕𝗥𝗔𝗧𝗜𝗢𝗡 𝗧𝗥𝗨𝗟𝗬 𝗦𝗣𝗘𝗖𝗜𝗔𝗟! ❤️
+𝗪𝗜𝗧𝗛 𝗟𝗢𝗩𝗘,
+𝗬𝗢𝗚𝗘𝗦𝗛𝗞𝗨𝗠𝗔𝗥 & 𝗞𝗔𝗠𝗔𝗟𝗜 𝗙𝗔𝗠𝗜𝗟𝗬💐`
       );
     },
   },
